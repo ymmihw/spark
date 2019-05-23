@@ -1,0 +1,1 @@
+spark-submit --class com.ymmihw.spark.intro.WordCount --master local ./target/spark-intro-0.0.1-SNAPSHOT.jar ./src/main/resources/spark_example.txt
