@@ -3,7 +3,7 @@ package com.ymmihw.transformation
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.{SparkConf, SparkContext}
 
-object FlatMapTransformation {
+object FlatMapTransformaion {
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("FlatMapTransformation").setMaster("local[*]")
     val spark = SparkSession.builder.appName("Simple Application").config(conf).getOrCreate()
