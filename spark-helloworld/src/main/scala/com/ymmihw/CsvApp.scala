@@ -5,8 +5,6 @@ import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructT
 object CsvApp {
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("CsvApp").setMaster("local[*]")
-    val sc = new SparkContext(conf)
-
     val sqlContext = SparkSession.builder().config(conf).getOrCreate()
     val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
     val customizedSchema = StructType(Array(StructField("gender", StringType, true), StructField("race", StringType, true), StructField("parentalLevelOfEducation", StringType, true), StructField("lunch", StringType, true), StructField("testPreparationCourse", StringType, true), StructField("mathScore", IntegerType, true), StructField("readingScore", IntegerType, true), StructField("writingScore", IntegerType, true)))
