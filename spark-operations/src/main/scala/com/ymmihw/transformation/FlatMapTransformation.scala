@@ -8,10 +8,15 @@ object FlatMapTransformation {
     val conf = new SparkConf().setAppName("FlatMapTransformation").setMaster("local[*]")
     val spark = SparkSession.builder.appName("Simple Application").config(conf).getOrCreate()
     val sc = spark.sparkContext
-    val a = sc.parallelize(1 to 10, 5).flatMap(1 to _).collect
-    val b = sc.parallelize(List(1, 2, 3), 2).flatMap(x => List(x, x, x)).collect
+    val a = sc.parallelize(List("V1,V2,V3", "U1,U2", "M1,M2"), 3).flatMap(s => {
+      var ss = s.split(",")
+      for (i <- 0 to ss.length - 1) {
+        var str = ss(i)
+        ss(i) = str.substring(0, str.length - 1) + "'" + str.substring(str.length - 1)
+      }
+      ss
+    }).collect
     println(a.mkString(", "))
-    println(b.mkString(", "))
     spark.stop()
   }
 }
