@@ -9,9 +9,9 @@ object FlatMapTransformation {
     val spark = SparkSession.builder.appName("Simple Application").config(conf).getOrCreate()
     val sc = spark.sparkContext
     val a = sc.parallelize(List("V1,V2,V3", "U1,U2", "M1,M2"), 3).flatMap(s => {
-      var ss = s.split(",")
+      val ss = s.split(",")
       for (i <- 0 to ss.length - 1) {
-        var str = ss(i)
+        val str = ss(i)
         ss(i) = str.substring(0, str.length - 1) + "'" + str.substring(str.length - 1)
       }
       ss

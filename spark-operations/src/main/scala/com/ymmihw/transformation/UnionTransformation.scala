@@ -10,7 +10,7 @@ object UnionTransformation {
     val sc = spark.sparkContext
     val a = sc.parallelize(List("V1", "V2", "U1", "U2", "U3", "U4"), 2)
     val b = sc.parallelize(List("V1", "V8", "U5", "U6", "U7", "U8"), 2)
-    var c = (a ++ b).collect
+    val c = (a ++ b).collect
     println(c.mkString(", "))
     spark.stop()
   }

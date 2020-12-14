@@ -10,7 +10,7 @@ object CartesianTransformation {
     val sc = spark.sparkContext
     val a = sc.parallelize(List("V1", "V2", "U1", "U2"), 2)
     val b = sc.parallelize(List("W1", "W2", "Q5"), 2)
-    var c = a.cartesian(b).collect
+    val c = a.cartesian(b).collect
     println(c.mkString(", "))
     spark.stop()
   }

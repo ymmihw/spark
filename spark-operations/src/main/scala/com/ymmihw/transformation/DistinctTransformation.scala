@@ -9,7 +9,7 @@ object DistinctTransformation {
     val spark = SparkSession.builder.appName("Simple Application").config(conf).getOrCreate()
     val sc = spark.sparkContext
     val a = sc.parallelize(List("V1", "V1", "V3", "U1", "U1", "U1", "U2", "U2"), 2)
-    var b = a.distinct.collect
+    val b = a.distinct.collect
     println(b.mkString(", "))
     spark.stop()
   }
