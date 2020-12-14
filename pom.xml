@@ -43,5 +43,6 @@
  <modules>
   <module>spark-intro</module>
   <module>spark-helloworld</module>
+  <module>spark-operations</module>
  </modules>
 </project>

@@ -1,5 +1,5 @@
 package com.ymmihw;
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType};
 object CsvApp {

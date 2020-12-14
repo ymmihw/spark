@@ -1,6 +1,6 @@
 package com.ymmihw;
 
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession;
 
 object ReadMeApp {
