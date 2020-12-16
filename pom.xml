@@ -1,48 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
- <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
- <groupId>com.ymmihw</groupId>
- <artifactId>spark</artifactId>
- <version>0.0.1-SNAPSHOT</version>
- <packaging>pom</packaging>
+  <groupId>com.ymmihw</groupId>
+  <artifactId>spark</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
- <name>spark</name>
- <url>http://maven.apache.org</url>
+  <name>spark</name>
+  <url>http://maven.apache.org</url>
 
- <properties>
-  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  <spark.version>3.0.1</spark.version>
-  <hadoop.version>3.3.0</hadoop.version>
- </properties>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spark.version>3.0.1</spark.version>
+    <hadoop.version>3.3.0</hadoop.version>
+  </properties>
 
- <dependencies>
-  <dependency>
-   <groupId>org.apache.spark</groupId>
-   <artifactId>spark-core_2.12</artifactId>
-   <version>${spark.version}</version>
-  </dependency>
-  <dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-test</artifactId>
-   <scope>test</scope>
-  </dependency>
- </dependencies>
- <dependencyManagement>
   <dependencies>
-   <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-dependencies</artifactId>
-    <version>2.1.5.RELEASE</version>
-    <type>pom</type>
-    <scope>import</scope>
-   </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_2.12</artifactId>
+      <version>${spark.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
- </dependencyManagement>
- <modules>
-  <module>spark-intro</module>
-  <module>spark-helloworld</module>
-  <module>spark-operations</module>
- </modules>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>2.1.5.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <modules>
+    <module>spark-intro</module>
+    <module>spark-helloworld</module>
+    <module>spark-operations</module>
+    <module>spark-streaming-quick-example</module>
+  </modules>
 </project>
