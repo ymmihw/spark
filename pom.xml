@@ -56,5 +56,6 @@
     <module>spark-helloworld</module>
     <module>spark-operations</module>
     <module>spark-streaming-quick-example</module>
+    <module>spark-streaming-updatestatebykey</module>
   </modules>
 </project>

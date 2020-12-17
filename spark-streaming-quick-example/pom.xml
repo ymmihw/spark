@@ -10,16 +10,11 @@
   <groupId>com.ymmihw</groupId>
   <artifactId>spark-streaming-quick-example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <inceptionYear>2008</inceptionYear>
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming_2.12</artifactId>
       <version>${spark.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>log4j-over-slf4j</artifactId>
     </dependency>
   </dependencies>
   <build>
