@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.ymmihw</groupId>
-    <artifactId>spark</artifactId>
+    <artifactId>spark-streaming</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.ymmihw</groupId>
-  <artifactId>spark-streaming-quick-example</artifactId>
+  <artifactId>spark-streaming-updatestatebykey</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
     <dependency>
