@@ -4,17 +4,24 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.ymmihw</groupId>
-    <artifactId>spark</artifactId>
+    <artifactId>spark-sql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.ymmihw</groupId>
-  <artifactId>spark-streaming-quick-example</artifactId>
+  <artifactId>spark-sql-dataframe</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-streaming_${scala.version}</artifactId>
+      <artifactId>spark-sql_${scala.version}</artifactId>
       <version>${spark.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${fasterxml.jackson.version}</version>
     </dependency>
   </dependencies>
   <build>

@@ -16,6 +16,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spark.version>3.0.1</spark.version>
     <hadoop.version>3.3.0</hadoop.version>
+    <scala.version>2.12</scala.version>
+    <fasterxml.jackson.version>2.10.0</fasterxml.jackson.version>
   </properties>
 
   <dependencies>
@@ -25,7 +27,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.12</artifactId>
+      <artifactId>spark-core_${scala.version}</artifactId>
       <version>${spark.version}</version>
       <exclusions>
         <exclusion>
@@ -58,5 +60,6 @@
     <module>spark-streaming-quick-example</module>
     <module>spark-streaming-updatestatebykey</module>
     <module>spark-streaming-window</module>
+    <module>spark-sql</module>
   </modules>
 </project>

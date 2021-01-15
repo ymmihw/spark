@@ -8,3 +8,9 @@ spark-operations | [Spark常用算子详解](https://www.cnblogs.com/kpsmile/p/1
 spark-streaming-quick-example | [A Quick Example](https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html#a-quick-example)
 spark-streaming-updatestatebykey | [UpdateStateByKey Operation](https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html#updatestatebykey-operation)
 spark-streaming-window | [Window Operations](https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html#window-operations)
+
+### spark-sql
+
+Module | Article
+--|--
+spark-sql-dataframe | [Spark SQL - DataFrames](https://www.tutorialspoint.com/spark_sql/spark_sql_dataframes.htm)

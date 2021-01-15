@@ -13,7 +13,7 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-streaming_2.12</artifactId>
+      <artifactId>spark-streaming_${scala.version}</artifactId>
       <version>${spark.version}</version>
     </dependency>
   </dependencies>
