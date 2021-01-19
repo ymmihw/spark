@@ -22,16 +22,16 @@ public class JavaApp {
     Dataset<Row> dfs = spark.createDataFrame(javaEmployees, JavaEmployee.class);
     dfs.createTempView("employee");
 
-    Dataset<Row> allrecords = spark.sql("SELECT * FROM employee");
-    System.out.println("=========allrecords=========");
-    allrecords.show();
+    Dataset<Row> allRecords = spark.sql("SELECT * FROM employee");
+    System.out.println("=========allRecords=========");
+    allRecords.show();
 
-    Dataset<Row> agefilter = spark.sql("SELECT * FROM employee WHERE age >= 20 AND age <= 35");
-    System.out.println("=========agefilter=========");
-    agefilter.show();
+    Dataset<Row> ageFilter = spark.sql("SELECT * FROM employee WHERE age >= 20 AND age <= 35");
+    System.out.println("=========ageFilter=========");
+    ageFilter.show();
 
     System.out
         .println("=========Fetch ID values from agefilter DataFrame using column index=========");
-    agefilter.toJavaRDD().map(t -> "ID: " + t.getAs(0)).collect().forEach(System.out::println);
+    ageFilter.toJavaRDD().map(t -> "ID: " + t.getAs(0)).collect().forEach(System.out::println);
   }
 }

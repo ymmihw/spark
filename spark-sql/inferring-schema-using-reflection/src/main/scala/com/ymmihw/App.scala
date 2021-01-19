@@ -12,17 +12,17 @@ object App {
       .map(e ⇒ Employee(e(0).trim.toInt, e(1), e(2).trim.toInt))
     val dfs = spark.createDataFrame(rdd)
     dfs.createTempView("employee")
-    val allrecords = spark.sql("SELECT * FROM employee")
-    println("=========allrecords=========")
-    allrecords.show()
+    val allRecords = spark.sql("SELECT * FROM employee")
+    println("=========allRecords=========")
+    allRecords.show()
 
-    val agefilter = spark.sql("SELECT * FROM employee WHERE age >= 20 AND age <= 35")
-    println("=========agefilter=========")
-    agefilter.show()
+    val ageFilter = spark.sql("SELECT * FROM employee WHERE age >= 20 AND age <= 35")
+    println("=========ageFilter=========")
+    ageFilter.show()
 
     import spark.implicits._
 
-    println("=========Fetch ID values from agefilter DataFrame using column index=========")
-    agefilter.map(t => "ID: " + t(0)).collect().foreach(println)
+    println("=========Fetch ID values from ageFilter DataFrame using column index=========")
+    ageFilter.map(t => "ID: " + t(0)).collect().foreach(println)
   }
 }
