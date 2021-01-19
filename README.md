@@ -19,3 +19,4 @@ spark-streaming-window | [Window Operations](https://spark.apache.org/docs/2.2.0
 Module | Article
 --|--
 spark-sql-dataframe | [Spark SQL - DataFrames](https://www.tutorialspoint.com/spark_sql/spark_sql_dataframes.htm)
+inferring-schema-using-reflection | [Inferring the Schema using Reflection](https://www.tutorialspoint.com/spark_sql/inferring_schema_using-reflection.htm)

@@ -11,7 +11,7 @@ object App {
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("AggregateAction").setMaster("local[*]")
     val spark = SparkSession.builder.appName("Simple Application").config(conf).getOrCreate()
-    val dfs = spark.read.option("mode", "DROPMALFORMED").json(App.getClass.getClassLoader.getResource("employee.json").toString)
+    val dfs = spark.read.json(App.getClass.getClassLoader.getResource("employee.json").toString)
     println("All -----------------------------")
     dfs.show()
     println("Schema -----------------------------")
