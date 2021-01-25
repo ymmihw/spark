@@ -4,3 +4,11 @@
 .idea
 *.iml
 target
+data
+metastore_db
+spark-warehouse
+derby.log
+gradlew.bat
+.gradle
+gradle
+gradlew
