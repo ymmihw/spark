@@ -22,3 +22,4 @@ spark-sql-dataframe | [Spark SQL - DataFrames](https://www.tutorialspoint.com/sp
 inferring-schema-using-reflection | [Inferring the Schema using Reflection](https://www.tutorialspoint.com/spark_sql/inferring_schema_using-reflection.htm)
 programmatically-specifying-schema  | [Programmatically Specifying the Schema](https://www.tutorialspoint.com/spark_sql/programmatically_specifying_schema.htm)
 spark-sql-data-sources | [Spark SQL - JSON Datasets](https://www.tutorialspoint.com/spark_sql/spark_sql_json_datasets.htm)
+by-examples-create-dataframe | [Spark Create DataFrame with Examples](https://sparkbyexamples.com/spark/different-ways-to-create-a-spark-dataframe/)

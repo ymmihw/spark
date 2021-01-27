@@ -17,5 +17,6 @@
     <module>inferring-schema-using-reflection</module>
     <module>programmatically-specifying-schema</module>
     <module>spark-sql-data-sources</module>
+    <module>by-examples-create-dataframe</module>
   </modules>
 </project>
