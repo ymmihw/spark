@@ -25,6 +25,7 @@
     <module>by-examples-when-otherwise-and-case-when</module>
     <module>by-examples-collect-data-to-driver</module>
     <module>by-examples-remove-duplicate-rows</module>
+    <module>by-examples-pivot-unpivot</module>
   </modules>
   <dependencies>
     <dependency>

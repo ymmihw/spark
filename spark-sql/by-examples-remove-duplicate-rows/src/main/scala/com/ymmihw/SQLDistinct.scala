@@ -1,4 +1,5 @@
 package com.ymmihw
+
 import org.apache.spark.sql.SparkSession
 
 object SQLDistinct extends App {
@@ -28,16 +29,16 @@ object SQLDistinct extends App {
 
   //Distinct all columns
   val distinctDF = df.distinct()
-  println("Distinct count: "+distinctDF.count())
+  println("Distinct count: " + distinctDF.count())
   distinctDF.show(false)
 
   val df2 = df.dropDuplicates()
-  println("Distinct count: "+df2.count())
+  println("Distinct count: " + df2.count())
   df2.show(false)
 
   //Distinct using dropDuplicates
-  val dropDisDF = df.dropDuplicates("department","salary")
-  println("Distinct count of department & salary : "+dropDisDF.count())
+  val dropDisDF = df.dropDuplicates("department", "salary")
+  println("Distinct count of department & salary : " + dropDisDF.count())
   dropDisDF.show(false)
 
 }

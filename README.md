@@ -30,3 +30,4 @@ by-examples-filter-and-where | [Spark DataFrame Where Filter | Multiple Conditio
 by-examples-when-otherwise-and-case-when | [Spark SQL “case when” and “when otherwise”](https://sparkbyexamples.com/spark/spark-case-when-otherwise-example/)
 by-examples-collect-data-to-driver | [Collect() – Retrieve data from Spark RDD/DataFrame](https://sparkbyexamples.com/spark/spark-dataframe-collect/)
 by-examples-remove-duplicate-rows | [Spark – How to remove duplicate rows](https://sparkbyexamples.com/spark/spark-remove-duplicate-rows/)
+by-examples-pivot-unpivot | [How to Pivot and Unpivot a Spark DataFrame](https://sparkbyexamples.com/spark/how-to-pivot-table-and-unpivot-a-spark-dataframe/)
