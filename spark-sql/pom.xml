@@ -19,5 +19,6 @@
     <module>spark-sql-data-sources</module>
     <module>by-examples-create-dataframe</module>
     <module>by-examples-with-column</module>
+    <module>by-examples-with-column-renamed</module>
   </modules>
 </project>
