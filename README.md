@@ -29,3 +29,4 @@ by-examples-drop | [Spark – How to Drop a DataFrame/Dataset column](https://sp
 by-examples-filter-and-where | [Spark DataFrame Where Filter | Multiple Conditions](https://sparkbyexamples.com/spark/spark-dataframe-where-filter/)
 by-examples-when-otherwise-and-case-when | [Spark SQL “case when” and “when otherwise”](https://sparkbyexamples.com/spark/spark-case-when-otherwise-example/)
 by-examples-collect-data-to-driver | [Collect() – Retrieve data from Spark RDD/DataFrame](https://sparkbyexamples.com/spark/spark-dataframe-collect/)
+by-examples-remove-duplicate-rows | [Spark – How to remove duplicate rows](https://sparkbyexamples.com/spark/spark-remove-duplicate-rows/)
