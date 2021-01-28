@@ -21,5 +21,6 @@
     <module>by-examples-with-column</module>
     <module>by-examples-with-column-renamed</module>
     <module>by-examples-drop</module>
+    <module>by-examples-filter-and-where</module>
   </modules>
 </project>
