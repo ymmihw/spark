@@ -27,3 +27,4 @@ by-examples-with-column | [Spark DataFrame withColumn](https://sparkbyexamples.c
 by-examples-with-column-renamed | [Spark withColumnRenamed to Rename Column](https://sparkbyexamples.com/spark/rename-a-column-on-spark-dataframes/)
 by-examples-drop | [Spark – How to Drop a DataFrame/Dataset column](https://sparkbyexamples.com/spark/spark-drop-column-from-dataframe-dataset/)
 by-examples-filter-and-where | [Spark DataFrame Where Filter | Multiple Conditions](https://sparkbyexamples.com/spark/spark-dataframe-where-filter/)
+by-examples-when-otherwise-and-case-when | [Spark SQL “case when” and “when otherwise”](https://sparkbyexamples.com/spark/spark-case-when-otherwise-example/)
