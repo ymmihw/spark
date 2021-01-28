@@ -26,7 +26,7 @@ by-examples-create-dataframe | [Spark Create DataFrame with Examples](https://sp
 by-examples-with-column | [Spark DataFrame withColumn](https://sparkbyexamples.com/spark/spark-dataframe-withcolumn/)
 by-examples-with-column-renamed | [Spark withColumnRenamed to Rename Column](https://sparkbyexamples.com/spark/rename-a-column-on-spark-dataframes/)
 by-examples-drop | [Spark – How to Drop a DataFrame/Dataset column](https://sparkbyexamples.com/spark/spark-drop-column-from-dataframe-dataset/)
-by-examples-filter-and-where | [Spark DataFrame Where Filter | Multiple Conditions](https://sparkbyexamples.com/spark/spark-dataframe-where-filter/)
+by-examples-filter-and-where | [Spark DataFrame Where Filter Multiple Conditions](https://sparkbyexamples.com/spark/spark-dataframe-where-filter/)
 by-examples-when-otherwise-and-case-when | [Spark SQL “case when” and “when otherwise”](https://sparkbyexamples.com/spark/spark-case-when-otherwise-example/)
 by-examples-collect-data-to-driver | [Collect() – Retrieve data from Spark RDD/DataFrame](https://sparkbyexamples.com/spark/spark-dataframe-collect/)
 by-examples-remove-duplicate-rows | [Spark – How to remove duplicate rows](https://sparkbyexamples.com/spark/spark-remove-duplicate-rows/)
