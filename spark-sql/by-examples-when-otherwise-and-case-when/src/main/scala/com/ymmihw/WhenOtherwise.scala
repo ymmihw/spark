@@ -1,7 +1,6 @@
 package com.ymmihw
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.{when, _}
-import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
 
 object WhenOtherwise {
 

@@ -28,3 +28,4 @@ by-examples-with-column-renamed | [Spark withColumnRenamed to Rename Column](htt
 by-examples-drop | [Spark – How to Drop a DataFrame/Dataset column](https://sparkbyexamples.com/spark/spark-drop-column-from-dataframe-dataset/)
 by-examples-filter-and-where | [Spark DataFrame Where Filter | Multiple Conditions](https://sparkbyexamples.com/spark/spark-dataframe-where-filter/)
 by-examples-when-otherwise-and-case-when | [Spark SQL “case when” and “when otherwise”](https://sparkbyexamples.com/spark/spark-case-when-otherwise-example/)
+by-examples-collect-data-to-driver | [Collect() – Retrieve data from Spark RDD/DataFrame](https://sparkbyexamples.com/spark/spark-dataframe-collect/)
