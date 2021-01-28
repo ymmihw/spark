@@ -18,5 +18,6 @@
     <module>programmatically-specifying-schema</module>
     <module>spark-sql-data-sources</module>
     <module>by-examples-create-dataframe</module>
+    <module>by-examples-with-column</module>
   </modules>
 </project>
