@@ -25,3 +25,4 @@ spark-sql-data-sources | [Spark SQL - JSON Datasets](https://www.tutorialspoint.
 by-examples-create-dataframe | [Spark Create DataFrame with Examples](https://sparkbyexamples.com/spark/different-ways-to-create-a-spark-dataframe/)
 by-examples-with-column | [Spark DataFrame withColumn](https://sparkbyexamples.com/spark/spark-dataframe-withcolumn/)
 by-examples-with-column-renamed | [Spark withColumnRenamed to Rename Column](https://sparkbyexamples.com/spark/rename-a-column-on-spark-dataframes/)
+by-examples-drop | [Spark – How to Drop a DataFrame/Dataset column](https://sparkbyexamples.com/spark/spark-drop-column-from-dataframe-dataset/)

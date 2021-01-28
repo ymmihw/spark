@@ -20,5 +20,6 @@
     <module>by-examples-create-dataframe</module>
     <module>by-examples-with-column</module>
     <module>by-examples-with-column-renamed</module>
+    <module>by-examples-drop</module>
   </modules>
 </project>
