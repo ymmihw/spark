@@ -21,6 +21,11 @@ object PivotExample {
     df.show()
 
     //pivot
+    val groupDF = df.groupBy("Product")
+      .sum("Amount")
+    groupDF.show()
+
+    //pivot
     val pivotDF = df.groupBy("Product")
       .pivot("Country")
       .sum("Amount")
