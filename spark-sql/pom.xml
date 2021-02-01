@@ -26,6 +26,7 @@
     <module>by-examples-collect-data-to-driver</module>
     <module>by-examples-remove-duplicate-rows</module>
     <module>by-examples-pivot-unpivot</module>
+    <module>by-examples-data-types</module>
   </modules>
   <dependencies>
     <dependency>
