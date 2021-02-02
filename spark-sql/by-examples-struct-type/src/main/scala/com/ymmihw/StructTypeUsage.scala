@@ -69,7 +69,6 @@ object StructTypeUsage extends App {
     .add("gender", StringType)
     .add("salary", IntegerType)
 
-
   val df2 = spark.createDataFrame(spark.sparkContext.parallelize(structureData), structureSchema)
   df2.printSchema()
   df2.show()
