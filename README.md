@@ -35,3 +35,4 @@ by-examples-data-types | [Spark SQL Data Types with Examples](https://sparkbyexa
 by-examples-struct-type | [Spark SQL StructType & StructField with examples](https://sparkbyexamples.com/spark/spark-sql-structtype-on-dataframe/)
 by-examples-group-by | [Spark Groupby Example with DataFrame](https://sparkbyexamples.com/spark/using-groupby-on-dataframe/)
 by-examples-sort | [Spark – How to Sort DataFrame column explained](https://sparkbyexamples.com/spark/spark-how-to-sort-dataframe-column-explained/)
+by-examples-join | [Spark SQL Join Types with examples](https://sparkbyexamples.com/spark/spark-sql-dataframe-join/)
