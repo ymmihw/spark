@@ -30,6 +30,7 @@
     <module>by-examples-struct-type</module>
     <module>by-examples-group-by</module>
     <module>by-examples-sort</module>
+    <module>by-examples-join</module>
   </modules>
   <dependencies>
     <dependency>
