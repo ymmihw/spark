@@ -33,3 +33,4 @@ by-examples-remove-duplicate-rows | [Spark – How to remove duplicate rows](htt
 by-examples-pivot-unpivot | [How to Pivot and Unpivot a Spark DataFrame](https://sparkbyexamples.com/spark/how-to-pivot-table-and-unpivot-a-spark-dataframe/)
 by-examples-data-types | [Spark SQL Data Types with Examples](https://sparkbyexamples.com/spark/spark-sql-dataframe-data-types/)
 by-examples-struct-type | [Spark SQL StructType & StructField with examples](https://sparkbyexamples.com/spark/spark-sql-structtype-on-dataframe/)
+by-examples-group-by | [Spark Groupby Example with DataFrame](https://sparkbyexamples.com/spark/using-groupby-on-dataframe/)

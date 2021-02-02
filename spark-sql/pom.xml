@@ -28,6 +28,7 @@
     <module>by-examples-pivot-unpivot</module>
     <module>by-examples-data-types</module>
     <module>by-examples-struct-type</module>
+    <module>by-examples-group-by</module>
   </modules>
   <dependencies>
     <dependency>
