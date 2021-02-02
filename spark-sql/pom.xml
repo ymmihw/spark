@@ -29,6 +29,7 @@
     <module>by-examples-data-types</module>
     <module>by-examples-struct-type</module>
     <module>by-examples-group-by</module>
+    <module>by-examples-sort</module>
   </modules>
   <dependencies>
     <dependency>
