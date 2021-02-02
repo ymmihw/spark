@@ -32,3 +32,4 @@ by-examples-collect-data-to-driver | [Collect() – Retrieve data from Spark RDD
 by-examples-remove-duplicate-rows | [Spark – How to remove duplicate rows](https://sparkbyexamples.com/spark/spark-remove-duplicate-rows/)
 by-examples-pivot-unpivot | [How to Pivot and Unpivot a Spark DataFrame](https://sparkbyexamples.com/spark/how-to-pivot-table-and-unpivot-a-spark-dataframe/)
 by-examples-data-types | [Spark SQL Data Types with Examples](https://sparkbyexamples.com/spark/spark-sql-dataframe-data-types/)
+by-examples-struct-type | [Spark SQL StructType & StructField with examples](https://sparkbyexamples.com/spark/spark-sql-structtype-on-dataframe/)

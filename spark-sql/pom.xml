@@ -27,6 +27,7 @@
     <module>by-examples-remove-duplicate-rows</module>
     <module>by-examples-pivot-unpivot</module>
     <module>by-examples-data-types</module>
+    <module>by-examples-struct-type</module>
   </modules>
   <dependencies>
     <dependency>
