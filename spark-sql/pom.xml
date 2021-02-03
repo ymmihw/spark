@@ -37,6 +37,7 @@
     <module>by-examples-cache</module>
     <module>by-examples-udf</module>
     <module>by-examples-array-type</module>
+    <module>by-examples-map-type</module>
   </modules>
   <dependencies>
     <dependency>

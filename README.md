@@ -42,3 +42,4 @@ by-examples-foreach-partition-vs-foreach | [Spark foreachPartition vs foreach | 
 by-examples-cache | [Spark DataFrame Cache and Persist Explained](https://sparkbyexamples.com/spark/spark-dataframe-cache-and-persist-explained/)
 by-examples-udf | [Spark SQL UDF (User Defined Functions)](https://sparkbyexamples.com/spark/spark-sql-udf/)
 by-examples-array-type | [Spark SQL DataFrame Array (ArrayType) Column](https://sparkbyexamples.com/spark/spark-array-arraytype-dataframe-column/)
+by-examples-map-type | [Working with Spark DataFrame Map (MapType) column](https://sparkbyexamples.com/spark/spark-dataframe-map-maptype-column/)
