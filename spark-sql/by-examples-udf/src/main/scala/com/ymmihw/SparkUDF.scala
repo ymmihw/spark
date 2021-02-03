@@ -2,7 +2,7 @@ package com.ymmihw
 
 import org.apache.spark.sql.functions.udf
 import org.apache.spark.sql.functions.col
-import org.apache.spark.sql.{Row, SparkSession}
+import org.apache.spark.sql.SparkSession
 
 object SparkUDF extends App {
 
@@ -23,8 +23,12 @@ object SparkUDF extends App {
   df.show(false)
 
   val convertCase = (str: String) => {
-    val arr = str.split(" ")
-    arr.map(f => f.substring(0, 1).toUpperCase + f.substring(1, f.length)).mkString(" ")
+    if (str != null) {
+      val arr = str.split(" ")
+      arr.map(f => f.substring(0, 1).toUpperCase + f.substring(1, f.length)).mkString(" ")
+    } else {
+      null
+    }
   }
 
   //Using with DataFrame
