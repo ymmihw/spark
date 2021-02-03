@@ -40,3 +40,4 @@ by-examples-union | [Spark DataFrame Union and UnionAll](https://sparkbyexamples
 by-examples-map-vs-map-partitions | [Spark map vs mapPartitions transformation](https://sparkbyexamples.com/spark/spark-map-vs-mappartitions-transformation/)
 by-examples-foreach-partition-vs-foreach | [Spark foreachPartition vs foreach | what to use?](https://sparkbyexamples.com/spark/spark-foreachpartition-vs-foreach-explained/)
 by-examples-cache | [Spark DataFrame Cache and Persist Explained](https://sparkbyexamples.com/spark/spark-dataframe-cache-and-persist-explained/)
+by-examples-udf | [Spark SQL UDF (User Defined Functions)](https://sparkbyexamples.com/spark/spark-sql-udf/)
