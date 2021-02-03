@@ -31,6 +31,7 @@
     <module>by-examples-group-by</module>
     <module>by-examples-sort</module>
     <module>by-examples-join</module>
+    <module>by-examples-union</module>
   </modules>
   <dependencies>
     <dependency>
