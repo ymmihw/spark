@@ -34,6 +34,7 @@
     <module>by-examples-union</module>
     <module>by-examples-map-vs-map-partitions</module>
     <module>by-examples-foreach-partition-vs-foreach</module>
+    <module>by-examples-cache</module>
   </modules>
   <dependencies>
     <dependency>
