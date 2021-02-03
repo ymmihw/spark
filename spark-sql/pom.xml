@@ -33,6 +33,7 @@
     <module>by-examples-join</module>
     <module>by-examples-union</module>
     <module>by-examples-map-vs-map-partitions</module>
+    <module>by-examples-foreach-partition-vs-foreach</module>
   </modules>
   <dependencies>
     <dependency>
