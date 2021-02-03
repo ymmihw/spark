@@ -38,3 +38,4 @@ by-examples-sort | [Spark – How to Sort DataFrame column explained](https://sp
 by-examples-join | [Spark SQL Join Types with examples](https://sparkbyexamples.com/spark/spark-sql-dataframe-join/)
 by-examples-union | [Spark DataFrame Union and UnionAll](https://sparkbyexamples.com/spark/spark-dataframe-union-and-union-all/)
 by-examples-map-vs-map-partitions | [Spark map vs mapPartitions transformation](https://sparkbyexamples.com/spark/spark-map-vs-mappartitions-transformation/)
+by-examples-map-vs-map-partitions | [Spark foreachPartition vs foreach | what to use?](https://sparkbyexamples.com/spark/spark-foreachpartition-vs-foreach-explained/)
