@@ -32,6 +32,7 @@
     <module>by-examples-sort</module>
     <module>by-examples-join</module>
     <module>by-examples-union</module>
+    <module>by-examples-map-vs-map-partitions</module>
   </modules>
   <dependencies>
     <dependency>

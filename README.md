@@ -37,3 +37,4 @@ by-examples-group-by | [Spark Groupby Example with DataFrame](https://sparkbyexa
 by-examples-sort | [Spark – How to Sort DataFrame column explained](https://sparkbyexamples.com/spark/spark-how-to-sort-dataframe-column-explained/)
 by-examples-join | [Spark SQL Join Types with examples](https://sparkbyexamples.com/spark/spark-sql-dataframe-join/)
 by-examples-union | [Spark DataFrame Union and UnionAll](https://sparkbyexamples.com/spark/spark-dataframe-union-and-union-all/)
+by-examples-map-vs-map-partitions | [Spark map vs mapPartitions transformation](https://sparkbyexamples.com/spark/spark-map-vs-mappartitions-transformation/)
