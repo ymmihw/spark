@@ -36,6 +36,7 @@
     <module>by-examples-foreach-partition-vs-foreach</module>
     <module>by-examples-cache</module>
     <module>by-examples-udf</module>
+    <module>by-examples-array-type</module>
   </modules>
   <dependencies>
     <dependency>
