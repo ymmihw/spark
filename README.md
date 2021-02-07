@@ -43,3 +43,4 @@ by-examples-cache | [Spark DataFrame Cache and Persist Explained](https://sparkb
 by-examples-udf | [Spark SQL UDF (User Defined Functions)](https://sparkbyexamples.com/spark/spark-sql-udf/)
 by-examples-array-type | [Spark SQL DataFrame Array (ArrayType) Column](https://sparkbyexamples.com/spark/spark-array-arraytype-dataframe-column/)
 by-examples-map-type | [Working with Spark DataFrame Map (MapType) column](https://sparkbyexamples.com/spark/spark-dataframe-map-maptype-column/)
+by-examples-flatten-nested-struct | [Spark SQL – Flatten Nested Struct column](https://sparkbyexamples.com/spark/spark-flatten-nested-struct-column/)

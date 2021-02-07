@@ -38,6 +38,7 @@
     <module>by-examples-udf</module>
     <module>by-examples-array-type</module>
     <module>by-examples-map-type</module>
+    <module>by-examples-flatten-nested-struct</module>
   </modules>
   <dependencies>
     <dependency>
