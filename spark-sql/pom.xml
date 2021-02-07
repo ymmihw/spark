@@ -39,6 +39,7 @@
     <module>by-examples-array-type</module>
     <module>by-examples-map-type</module>
     <module>by-examples-flatten-nested-struct</module>
+    <module>by-examples-flatten-array-of-array</module>
   </modules>
   <dependencies>
     <dependency>
