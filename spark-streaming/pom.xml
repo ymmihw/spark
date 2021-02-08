@@ -56,5 +56,6 @@
     <module>by-examples-files-from-directory</module>
     <module>by-examples-from-tcp-socket</module>
     <module>by-examples-kafka-json</module>
+    <module>by-examples-kafka-avro</module>
   </modules>
 </project>

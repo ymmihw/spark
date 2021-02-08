@@ -16,6 +16,7 @@ spark-streaming-window | [Window Operations](https://spark.apache.org/docs/2.2.0
 by-examples-files-from-directory | [Spark Streaming files from a directory](https://sparkbyexamples.com/spark/spark-streaming-read-json-files-from-directory/)
 by-examples-from-tcp-socket | [Spark Streaming – Reading data from TCP Socket](https://sparkbyexamples.com/spark/spark-streaming-from-tcp-socket/)
 by-examples-kafka-json | [Spark Streaming with Kafka Example](https://sparkbyexamples.com/spark/spark-streaming-with-kafka/)
+by-examples-kafka-avro | 
 
 ### spark-sql
 
