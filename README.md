@@ -45,3 +45,4 @@ by-examples-array-type | [Spark SQL DataFrame Array (ArrayType) Column](https://
 by-examples-map-type | [Working with Spark DataFrame Map (MapType) column](https://sparkbyexamples.com/spark/spark-dataframe-map-maptype-column/)
 by-examples-flatten-nested-struct | [Spark SQL – Flatten Nested Struct column](https://sparkbyexamples.com/spark/spark-flatten-nested-struct-column/)
 by-examples-flatten-array-of-array | [Spark – Flatten nested array to single array column](https://sparkbyexamples.com/spark/spark-flatten-nested-array-column-to-single-column/)
+by-examples-explode-array-and-map | [Spark explode array and map columns to rows](https://sparkbyexamples.com/spark/explode-spark-array-and-map-dataframe-column/)
