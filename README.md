@@ -14,6 +14,7 @@ spark-streaming-quick-example | [A Quick Example](https://spark.apache.org/docs/
 spark-streaming-updatestatebykey | [UpdateStateByKey Operation](https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html#updatestatebykey-operation)
 spark-streaming-window | [Window Operations](https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html#window-operations)
 by-examples-files-from-directory | [Spark Streaming files from a directory](https://sparkbyexamples.com/spark/spark-streaming-read-json-files-from-directory/)
+by-examples-from-tcp-socket | [Spark Streaming – Reading data from TCP Socket](https://sparkbyexamples.com/spark/spark-streaming-from-tcp-socket/)
 
 ### spark-sql
 
