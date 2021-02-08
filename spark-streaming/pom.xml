@@ -19,6 +19,16 @@
       <artifactId>spark-streaming_${scala.version}</artifactId>
       <version>${spark.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql_${scala.version}</artifactId>
+      <version>${spark.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${fasterxml.jackson.version}</version>
+    </dependency>
   </dependencies>
   <build>
     <pluginManagement>
@@ -44,5 +54,6 @@
     <module>spark-streaming-updatestatebykey</module>
     <module>spark-streaming-window</module>
     <module>by-examples-files-from-directory</module>
+    <module>by-examples-from-tcp-socket</module>
   </modules>
 </project>
