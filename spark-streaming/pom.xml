@@ -55,5 +55,6 @@
     <module>spark-streaming-window</module>
     <module>by-examples-files-from-directory</module>
     <module>by-examples-from-tcp-socket</module>
+    <module>by-examples-kafka-json</module>
   </modules>
 </project>
