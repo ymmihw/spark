@@ -38,7 +38,7 @@ by-examples-sort | [Spark – How to Sort DataFrame column explained](https://sp
 by-examples-join | [Spark SQL Join Types with examples](https://sparkbyexamples.com/spark/spark-sql-dataframe-join/)
 by-examples-union | [Spark DataFrame Union and UnionAll](https://sparkbyexamples.com/spark/spark-dataframe-union-and-union-all/)
 by-examples-map-vs-map-partitions | [Spark map vs mapPartitions transformation](https://sparkbyexamples.com/spark/spark-map-vs-mappartitions-transformation/)
-by-examples-foreach-partition-vs-foreach | [Spark foreachPartition vs foreach | what to use?](https://sparkbyexamples.com/spark/spark-foreachpartition-vs-foreach-explained/)
+by-examples-foreach-partition-vs-foreach | [Spark foreachPartition vs foreach what to use?](https://sparkbyexamples.com/spark/spark-foreachpartition-vs-foreach-explained/)
 by-examples-cache | [Spark DataFrame Cache and Persist Explained](https://sparkbyexamples.com/spark/spark-dataframe-cache-and-persist-explained/)
 by-examples-udf | [Spark SQL UDF (User Defined Functions)](https://sparkbyexamples.com/spark/spark-sql-udf/)
 by-examples-array-type | [Spark SQL DataFrame Array (ArrayType) Column](https://sparkbyexamples.com/spark/spark-array-arraytype-dataframe-column/)
